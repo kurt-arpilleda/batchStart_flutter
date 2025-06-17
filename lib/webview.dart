@@ -555,7 +555,7 @@ class _SoftwareWebViewScreenState extends State<SoftwareWebViewScreen> with Widg
   }
 
   function updateBarcodeScannerButton() {
-    const input = document.getElementById('lotNumber');
+    const input = document.getElementById('textToFilter');
     if (!input) return;
 
     const shouldShow = isVisible(input);
