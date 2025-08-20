@@ -1,7 +1,7 @@
 name: batch_start
 description: "Batch  Start and Finish web to app"
 publish_to: 'none'
-version: 1.0.9+10
+version: 1.0.10+11
 
 environment:
   sdk: ^3.7.2
